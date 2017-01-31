@@ -1,0 +1,12 @@
+<p>
+  propertydatabinbding works!
+</p>
+This is a property binding example<br />
+example 1:<input type="text" [value]="fixedtext"><br />
+example 2:<input type="text" value="{{fixedtext}}">
+<hr />
+<p [ngClass]="{styledP: onTest()}">Binding style class</p>
+<p [ngStyle]="{color: onTest2()}">Binding style</p>
+<hr>
+Property input component<br />
+<app-property-input [propertyInput]="10"></app-property-input>
