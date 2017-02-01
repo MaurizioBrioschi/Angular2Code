@@ -6,7 +6,7 @@ This project was generated with [angular-cli](https://github.com/angular/angular
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
-- Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`. You can also use the short alias `ng g c component-name --flat -it -is` to generate a new component inside a directory: see documentation for the options values. 
+- Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`. You can also use the short alias `ng g c component-name --flat -it -is` to generate a new component inside a directory (-it stands for inline template, -is stands for inline style): see documentation for more options. 
 
 ## Build
 

@@ -4,11 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { PropertydatabinbdingComponent } from './propertydatabinbding/propertydatabinbding.component';
-import { PropertyInputComponent } from './propertydatabinbding/property-input/property-input.component';
-import { EventbindingComponent } from './propertydatabinbding/eventbinding/eventbinding.component';
-import { CustomEventBindingComponent } from './propertydatabinbding/eventbinding/custom-event-binding.component';
-import { TwoWayBindingComponent } from './propertydatabinbding/two-way-binding/two-way-binding.component';
+import { PropertydatabinbdingComponent } from './databinding/propertydatabinbding.component';
+import { PropertyInputComponent } from './databinding/property-input/property-input.component';
+import { EventbindingComponent } from './databinding/eventbinding/eventbinding.component';
+import { CustomEventBindingComponent } from './databinding/eventbinding/custom-event-binding.component';
+import { TwoWayBindingComponent } from './databinding/two-way-binding/two-way-binding.component';
+import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TwoWayBindingComponent } from './propertydatabinbding/two-way-binding/t
     PropertyInputComponent,
     EventbindingComponent,
     CustomEventBindingComponent,
-    TwoWayBindingComponent
+    TwoWayBindingComponent,
+    LifeCycleComponent
   ],
   imports: [
     BrowserModule,

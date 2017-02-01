@@ -1,16 +1,20 @@
 <p>
   propertydatabinbding works!
+  This is a property binding example<br />
+  example 1:<input type="text" [value]="fixedtext"><br />
+  example 2:<input type="text" value="{{fixedtext}}">
 </p>
-This is a property binding example<br />
-example 1:<input type="text" [value]="fixedtext"><br />
-example 2:<input type="text" value="{{fixedtext}}">
 <hr />
-<p [ngClass]="{styledP: onTest()}">Binding style class</p>
+<p [ngClass]="{styledP: onTest()}">Binding class</p>
 <p [ngStyle]="{color: onTest2()}">Binding style</p>
 <hr>
+<p>
 Property input component<br />
 <app-property-input [propertyInput]="10"></app-property-input>
+</p>
 <hr>
+<p>
 Event Binding <app-eventbinding></app-eventbinding><br />
 Custom event binding<app-custom-event-binding (clickable)='onClicked($event)'></app-custom-event-binding><br />
 Two way binding <app-two-way-binding></app-two-way-binding>
+</p>
