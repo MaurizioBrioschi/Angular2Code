@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { PropertyInputComponent } from './property-input/property-input.component';
+import { EventbindingComponent } from './eventbinding/eventbinding.component';
+import { CustomEventBindingComponent } from './eventbinding/custom-event-binding.component';
 
 @Component({
   selector: 'app-propertydatabinbding',
@@ -15,5 +17,9 @@ export class PropertydatabinbdingComponent {
 
   onTest2 = function(){
     return 'green';
+  }
+
+  onClicked(value: string) {
+    alert(value);
   }
 }
