@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { PropertyInputComponent } from './property-input/property-input.component';
 import { EventbindingComponent } from './eventbinding/eventbinding.component';
 import { CustomEventBindingComponent } from './eventbinding/custom-event-binding.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 
 @Component({
   selector: 'app-propertydatabinbding',
