@@ -6,8 +6,7 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 
 @Component({
   selector: 'app-propertydatabinbding',
-  templateUrl: './propertydatabinbding.component.html',
-  styleUrls: ['./propertydatabinbding.component.css']
+  templateUrl: './propertydatabinbding.component.html'
 })
 export class PropertydatabinbdingComponent {
   fixedtext = "this is a fixed text from class PropertydatabinbdingComponent "
