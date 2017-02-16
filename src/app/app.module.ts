@@ -11,6 +11,7 @@ import { CustomEventBindingComponent } from './databinding/eventbinding/custom-e
 import { TwoWayBindingComponent } from './databinding/two-way-binding/two-way-binding.component';
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { HeaderComponent } from './header.component';
+import { CustomDirectiveHighlightDirective } from './custom-directive-highlight.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { HeaderComponent } from './header.component';
     CustomEventBindingComponent,
     TwoWayBindingComponent,
     LifeCycleComponent,
-    HeaderComponent
+    HeaderComponent,
+    CustomDirectiveHighlightDirective
   ],
   imports: [
     BrowserModule,
