@@ -12,6 +12,7 @@ import { TwoWayBindingComponent } from './databinding/two-way-binding/two-way-bi
 import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { HeaderComponent } from './header.component';
 import { CustomDirectiveHighlightDirective } from './custom-directive-highlight.directive';
+import { StructuralDirectiveUnlessDirective } from './structural-directive-unless.directive';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CustomDirectiveHighlightDirective } from './custom-directive-highlight.
     TwoWayBindingComponent,
     LifeCycleComponent,
     HeaderComponent,
-    CustomDirectiveHighlightDirective
+    CustomDirectiveHighlightDirective,
+    StructuralDirectiveUnlessDirective
   ],
   imports: [
     BrowserModule,

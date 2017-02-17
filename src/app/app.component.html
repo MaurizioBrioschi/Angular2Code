@@ -1,6 +1,6 @@
 <app-header></app-header>
   <div class="col-md-8">
-      <div class="container">
+      <div class="container leave-air">
     <h2>Data Binding</h2>
     <app-propertydatabinbding></app-propertydatabinbding>
       <h3>Life cycle of a component</h3>
@@ -9,9 +9,12 @@
           <app-life-cycle></app-life-cycle>
       </p>
       </div>
-      <div class="container">
+      <div class="container leave-air">
           <h2>Custom Directive</h2>
           <div appCustomDirectiveHighlight [highlight]="'red'">Some text</div>
+          <h2>Structural custom directive</h2>
+          <div *appStructuralDirectiveUnless="structuralDirCondition">MyText</div>
+          <button (click)="onStructuralDirCondition()">Change structural</button>
       </div>
   </div>
  <div class="col-md-4">
