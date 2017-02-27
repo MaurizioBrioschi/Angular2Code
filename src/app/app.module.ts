@@ -13,6 +13,7 @@ import { LifeCycleComponent } from './life-cycle/life-cycle.component';
 import { HeaderComponent } from './header.component';
 import { CustomDirectiveHighlightDirective } from './custom-directive-highlight.directive';
 import { StructuralDirectiveUnlessDirective } from './structural-directive-unless.directive';
+import {routing} from "./app.routing";
 
 @NgModule({
   declarations: [
@@ -30,9 +31,10 @@ import { StructuralDirectiveUnlessDirective } from './structural-directive-unles
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+      routing
   ],
-  providers: [],
+  providers: [], //if i want a service available in every component, add it here!
   bootstrap: [AppComponent]
 })
 export class AppModule { }
